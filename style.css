@@ -1,0 +1,385 @@
+
+body{
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.fale-conosco {
+    position: relative; 
+    width: 100%; /* Largura total da tela */
+    height: 700px; /* Altura fixa */
+    border-radius: 10px; /* Borda arredondada */
+    overflow: hidden; /* Garante que o desfoque não ultrapasse as bordas */
+}
+.fale-conosco img {
+    width: 100%;
+    height: 100%; /* Largura da imagem igual à largura do contêiner */
+    filter: blur(3px); /* Aplica um desfoque à imagem */
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+}
+.fale-conosco h2 {
+    font-size: 25px;
+    position: relative;
+    z-index: 1; /* Coloca o título na frente da imagem */
+    color: red; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    margin-top: 80px; /* Ajuste a margem superior conforme necessário */
+}
+.fale-conosco p {
+    position: relative;
+    z-index: 1; /* Coloca o título na frente da imagem */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+}
+.formas-de-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contato{
+    background-color: #ccc;
+    text-align: center;
+    margin: 20px;
+    width: 700px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; 
+}
+.contato {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.contato:hover {
+    transform: scale(1.05);
+    color: red;
+}
+
+
+.container {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+}
+.img-laft {
+    border-radius: 10px;
+    margin-left: 15%;
+    width: 300px;
+    height: 550px;
+}
+.box {
+    margin-left: 5%;
+    width: 600px;
+    height: 550px;
+    text-align: center;
+}
+.title {
+    color: red;
+    margin-right: 20%;
+    margin-top: 10%;
+    font-size: 25px;
+}
+.text {
+    margin: 10%;
+    margin-top: 10%;
+    font-size: 22px;
+    text-align: justify;
+}   
+
+
+
+.background {
+    background-color: #ccc;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.container2 {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid #414141;
+    margin: 30px;
+    text-align: center;
+}
+.container2:hover {
+    border: 2px solid red;
+}
+.icon {
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+.text2 {
+    margin: 20px;
+}
+
+/* inicio do footer */
+
+.background-footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.background-siga-a-gente {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.background-siga-a-gente h3 {
+    color: white;
+    font-size: 22px;
+}
+.redes {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.redes a {
+    margin: 10px;
+}
+.redes a:hover {
+    transform: scale(1.08);
+}
+.redes img {
+    width: 80%;
+    height: 80%;
+}
+.linha-horizontal {
+    width: 80%;
+    height: 2px;
+    background-color: white;
+}
+
+.top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-botton:hover {
+    transform: scale(1.04);
+}
+.top-botton {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 25px;
+    margin-right: 200px;
+}
+.top-botton p {
+    font-size: 20px;
+    color: black;
+
+}
+.link-decoration {
+    text-decoration: none;
+}
+#logo777 {
+    margin-left: 200px;
+    width: 150px;
+    height: 150px;
+}
+        /*  FIM footer */
+/*  navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    display: flex;
+}
+.links {
+    margin: 30px;
+}
+.links a {
+    color: white; /* Definir a cor dos links */
+    text-decoration: none; /* Remover decoração do link */
+    margin-right: 25px; /* Espaçamento entre links */
+    font-weight: bold; /* Deixar o texto em negrito */
+}
+.links a:hover {
+    color: red
+}
+.logo-container {
+    margin-right: auto; /* Empurra a div para a direita */
+    margin-left: 20px; /* Adiciona um espaço após o logo */
+}
+.img {
+    width: 50px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.img:hover {
+    cursor: pointer;
+}
+/* FIM navbar */
+
+.background-banner {
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.background-banner img {
+    filter: blur(2px);
+    width: 100%;
+    height: 100%;
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.banner-text h1 {
+    color: red;
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+.banner-text p {
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.background-horarios {
+    margin: 0;
+    background-color: #ccc;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+#titleh2 {
+    padding-top: 20px;
+    color: red;
+    font-size: 25px;
+}
+.title-div {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+table {
+            border-collapse: collapse;
+            width: 100%;
+            width: 400px;
+            height: 200px;
+            margin-left: 100px;
+        }
+        th, td {
+            border: 1px solid rgba(0, 0, 0, 0.5); /* Borda cinza transparente */
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: rgba(255, 0, 0, 0.7); /* Fundo vermelho transparente */
+            color: white; /* Texto branco para contrastar com o fundo vermelho */
+        }
+        
+
+.horarios-de-funcionamento img {
+    width: 150px;
+    height: 150px;
+    margin-left: 300px;
+
+}
+
+.horarios-de-funcionamento {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+/* IMC styles */
+.background-imc {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ccc;
+}
+#title-box {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+
+.number {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button:hover {
+    transform: scale(1.05);
+}
+.imc-resposta {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
