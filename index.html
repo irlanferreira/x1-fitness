@@ -101,18 +101,22 @@
 
 
     <div class="background-imc" id="move-imc">
-        <div id="title-box"><h2 class="title2" style="font-size: 28px;">Calculadora de IMC</h2></div>
-        <form>
-            <label for="altura">Altura(ex: 1,70):</label><br>
-            <input type="number" id="altura" name="altura" step="0.1" min="0" class="number"><br>
+        <div class="background-imctext">
+            <p>O Índice de Massa Corporal (IMC) é uma medida que avalia se uma pessoa está no peso ideal em relação à sua altura.</p>
+        </div>
+        <div class="background-imcform">
+            <div id="title-box"><h2 class="title2" style="font-size: 28px;">Calculadora de IMC</h2></div>
+            <form>
+                <label for="altura">Altura(ex: 1,70):</label><br>
+                <input type="number" id="altura" name="altura" step="0.1" min="0" class="number"><br>
 
-            <label for="peso">Peso(ex: 69,2):</label><br>
-            <input type="number" id="peso" name="peso" step="0.1" min="0" class="number"><br>
+                <label for="peso">Peso(ex: 69,2):</label><br>
+                <input type="number" id="peso" name="peso" step="0.1" min="0" class="number"><br>
 
-            <input type="button" value="Calcular IMC" onclick="calcularIMC()" class="button">
-        </form>
-
-        <p class="imc-resposta"><span id="resultado"></span></p>
+                <input type="button" value="Calcular IMC" onclick="calcularIMC()" class="button">
+            </form>
+            <p class="imc-resposta"><span id="resultado"></span></p>
+        </div>
     </div>
 
 
